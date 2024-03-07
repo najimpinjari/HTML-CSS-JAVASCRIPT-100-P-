@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #01161f ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding: 60px 40px;
+}
+.container .wrapper{
+    width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.container .wrapper .btn-item-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.btn-item-container button{
+    /* background-color: #3c64f3;
+    color: #fff; */
+    color: #3c64f3;
+    border: none;
+    outline: none;
+    padding: 12px 18px;
+    border: 1px solid  #3c64f3;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;   
+    background-color: transparent;
+    cursor: pointer; 
+}
+.btn-item-container button.active{
+    background-color: #3c64f3;
+    color: #fff; 
+}
+
+.wrapper .portfolio-img-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.wrapper .portfolio-img-container .port-item{
+    width: 300px;
+}
+.wrapper .portfolio-img-container .port-item img{
+    width: 100px;
+    object-fit: cover;
+}
